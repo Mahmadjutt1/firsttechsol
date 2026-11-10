@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>First Tech Sol – Smart Mobile Apps &amp; Digital Solutions</title>
   <meta name="description" content="First Tech Sol creates innovative, user-friendly, and meaningful mobile applications like First Word that make everyday life easier, smarter, and more enjoyable." />
-  <meta name="keywords" content="First Tech Sol, mobile applications, First Word app, children educational app, letter tracing, shape recognition, smart technology, www.firsttechsol.com" />
+  <meta name="keywords" content="First Tech Sol, mobile applications, First Word app, Learn Shapes, Start Tracing, Start Coloring, Start Quiz, Learn Colors, Brain Games, Kid Lock, www.firsttechsol.com" />
   <meta name="author" content="First Tech Sol" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#090D16" />
   <link rel="canonical" href="https://www.firsttechsol.com/" />
+  <link rel="icon" type="image/jpeg" href="/assets/aistudio/Company_Logo_7f2a0681.jfif" />
 
   <!-- OpenGraph / Facebook / LinkedIn Meta Tags -->
   <meta property="og:type" content="website" />
@@ -17,11 +18,13 @@
   <meta property="og:url" content="https://www.firsttechsol.com/" />
   <meta property="og:title" content="First Tech Sol – Smart Mobile Apps &amp; Digital Solutions" />
   <meta property="og:description" content="We create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable." />
+  <meta property="og:image" content="https://www.firsttechsol.com/assets/aistudio/Company_Logo_7f2a0681.jfif" />
 
   <!-- Twitter / X Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="First Tech Sol – Smart Mobile Apps &amp; Digital Solutions" />
   <meta name="twitter:description" content="We create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable." />
+  <meta name="twitter:image" content="https://www.firsttechsol.com/assets/aistudio/Company_Logo_7f2a0681.jfif" />
 
   <!-- Google Fonts: Plus Jakarta Sans & DM Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -61,15 +64,16 @@
         "@id": "https://www.firsttechsol.com/#organization",
         "name": "First Tech Sol",
         "url": "https://www.firsttechsol.com",
+        "logo": "https://www.firsttechsol.com/assets/aistudio/Company_Logo_7f2a0681.jfif",
         "description": "We create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable.",
         "foundingDate": "2026"
       },
       {
         "@type": "SoftwareApplication",
         "name": "First Word",
-        "operatingSystem": "iOS, Android",
+        "operatingSystem": "Android, iOS",
         "applicationCategory": "EducationalApplication",
-        "description": "Upcoming educational app for children featuring alphabet categories, letter tracing, shape recognition, quizzes, and parental child-lock security.",
+        "description": "Educational mobile app for children featuring Alphabet & Word Learning, Learn Shapes (Audio & Fun), Start Tracing (Trace A to Z), Start Coloring (Fun Digital Art), Start Quiz (Easy, Med, Hard), Learn Colors (25 Fun Shades), Brain Games (4-in-1 Logic Fun), and Kid Lock parental security.",
         "publisher": { "@id": "https://www.firsttechsol.com/#organization" }
       }
     ]
@@ -104,9 +108,10 @@
   <!-- TOP NAVIGATION BAR (Strict 3-Zone Contract) -->
   <header class="sticky top-0 z-50 bg-[#090D16]/90 backdrop-blur-md border-b border-slate-800/80">
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-8">
-      <!-- Zone 1: Brand Wordmark -->
-      <a href="#home" onclick="navigateTo('home'); return false;" class="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0">
-        FIRST TECH SOL
+      <!-- Zone 1: Brand Logo & Wordmark -->
+      <a href="#home" onclick="navigateTo('home'); return false;" class="flex items-center gap-3 font-display text-lg font-extrabold tracking-tight whitespace-nowrap shrink-0">
+        <img src="/assets/aistudio/Company_Logo_7f2a0681.jfif" alt="First Tech Sol Logo" class="w-9 h-9 rounded-lg object-cover border border-blue-500/30" />
+        <span><span class="text-white">FIRST</span> <span class="text-sky-400">TECH SOL</span></span>
       </a>
 
       <!-- Zone 2: Navigation Links -->
@@ -141,28 +146,31 @@
     <!-- ==================== VIEW 1: HOME ==================== -->
     <section id="view-home" class="view-section active">
       <!-- Hero Section -->
-      <div class="max-w-7xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-28">
-        <div class="max-w-3xl">
-          <p class="text-xs text-slate-400 mb-4">
-            <span>Mobile Application Studio</span>
-            <span aria-hidden="true" class="mx-2">·</span>
-            <span>Human-Centered Engineering</span>
-            <span aria-hidden="true" class="mx-2">·</span>
-            <span>www.firsttechsol.com</span>
-          </p>
-          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12] mb-6">
-            Smart Technology Crafted for Everyday Human Moments.
-          </h1>
-          <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-10 max-w-2xl">
-            We create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable.
-          </p>
-          <div class="flex flex-wrap items-center gap-4">
-            <button onclick="navigateTo('our-apps')" class="px-6 py-3 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors whitespace-nowrap">
-              Discover Our Apps
-            </button>
-            <button onclick="navigateTo('mission-vision')" class="px-6 py-3 text-sm font-semibold text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500 rounded-lg transition-colors whitespace-nowrap">
-              Read Mission &amp; Vision
-            </button>
+      <div class="max-w-7xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-24">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-7">
+            <p class="text-xs text-sky-400 font-medium tracking-wider mb-4">
+              INNOVATION &middot; MOBILE APPS &middot; SOLUTIONS
+            </p>
+            <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.12] mb-6">
+              Smart Technology Crafted for Everyday Human Moments.
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-10 max-w-2xl">
+              We create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable.
+            </p>
+            <div class="flex flex-wrap items-center gap-4">
+              <button onclick="navigateTo('our-apps')" class="px-6 py-3 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors whitespace-nowrap">
+                Explore First Word App
+              </button>
+              <button onclick="navigateTo('mission-vision')" class="px-6 py-3 text-sm font-semibold text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500 rounded-lg transition-colors whitespace-nowrap">
+                Read Mission &amp; Vision
+              </button>
+            </div>
+          </div>
+          <div class="lg:col-span-5">
+            <div class="rounded-2xl overflow-hidden border border-slate-800 bg-[#0B0F1A] p-4 shadow-2xl">
+              <img src="/assets/aistudio/Company_Logo_7f2a0681.jfif" alt="First Tech Sol – Innovation | Mobile Apps | Solutions" class="w-full h-auto rounded-xl object-cover" />
+            </div>
           </div>
         </div>
       </div>
@@ -171,7 +179,7 @@
       <div class="border-t border-slate-800/80 bg-[#0C121E]">
         <div class="max-w-7xl mx-auto px-6 py-20 lg:py-24">
           <div class="max-w-2xl mb-14">
-            <p class="text-xs text-slate-400 mb-2">Foundational Principles · Four Key Pillars</p>
+            <p class="text-xs text-slate-400 mb-2">Foundational Principles &middot; Four Key Pillars</p>
             <h2 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight">
               Our Core Values
             </h2>
@@ -180,7 +188,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <article class="p-6 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
               <div>
-                <p class="font-mono text-xs text-blue-400 mb-4">01 / Pillar</p>
+                <p class="font-mono text-xs text-sky-400 mb-4">01. Innovation</p>
                 <h3 class="font-display text-lg font-semibold text-white mb-2">Innovation</h3>
                 <p class="text-sm text-slate-300 leading-relaxed">
                   We turn creative ideas into useful digital experiences.
@@ -190,7 +198,7 @@
 
             <article class="p-6 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
               <div>
-                <p class="font-mono text-xs text-blue-400 mb-4">02 / Pillar</p>
+                <p class="font-mono text-xs text-sky-400 mb-4">02. User First</p>
                 <h3 class="font-display text-lg font-semibold text-white mb-2">User First</h3>
                 <p class="text-sm text-slate-300 leading-relaxed">
                   We build applications around people's needs and experiences.
@@ -200,7 +208,7 @@
 
             <article class="p-6 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
               <div>
-                <p class="font-mono text-xs text-blue-400 mb-4">03 / Pillar</p>
+                <p class="font-mono text-xs text-sky-400 mb-4">03. Trust &amp; Quality</p>
                 <h3 class="font-display text-lg font-semibold text-white mb-2">Trust &amp; Quality</h3>
                 <p class="text-sm text-slate-300 leading-relaxed">
                   We value quality, reliability, privacy, and transparency.
@@ -210,7 +218,7 @@
 
             <article class="p-6 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
               <div>
-                <p class="font-mono text-xs text-blue-400 mb-4">04 / Pillar</p>
+                <p class="font-mono text-xs text-sky-400 mb-4">04. Growth</p>
                 <h3 class="font-display text-lg font-semibold text-white mb-2">Growth</h3>
                 <p class="text-sm text-slate-300 leading-relaxed">
                   We continuously learn, improve, and embrace new technologies.
@@ -221,36 +229,57 @@
         </div>
       </div>
 
-      <!-- Featured Product Highlight on Home -->
+      <!-- Featured Product Highlight on Home: First Word -->
       <div class="border-t border-slate-800/80">
         <div class="max-w-7xl mx-auto px-6 py-20 lg:py-24">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div class="lg:col-span-7">
-              <p class="text-xs text-slate-400 mb-3">Flagship Upcoming Release · Early Childhood Education</p>
-              <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mb-4">
-                First Word — Early Learning Built with Child Safety First
+              <p class="text-xs text-sky-400 mb-3">Learn &middot; Explore &middot; Grow &middot; "Big words make big dreams!"</p>
+              <h2 class="font-display text-2xl sm:text-4xl font-bold text-white mb-4">
+                First Word — Complete Early Learning Companion
               </h2>
               <p class="text-slate-300 leading-relaxed mb-6">
-                Designed for young learners, First Word introduces structured alphabet categories, guided letter tracing, geometric shape recognition, interactive quizzes, and built-in parental child-lock security.
+                Designed for young learners, First Word combines interactive Alphabet &amp; Word categories with 6 engaging activity modules and built-in Kid Lock parental security.
               </p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 text-sm">
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Learn Shapes</span>
+                  <span class="text-slate-400">Audio &amp; Fun</span>
+                </div>
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Start Tracing</span>
+                  <span class="text-slate-400">Trace A to Z</span>
+                </div>
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Start Coloring</span>
+                  <span class="text-slate-400">Fun Digital Art</span>
+                </div>
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Start Quiz</span>
+                  <span class="text-slate-400">Easy &middot; Med &middot; Hard</span>
+                </div>
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Learn Colors</span>
+                  <span class="text-slate-400">25 Fun Shades</span>
+                </div>
+                <div class="p-3.5 rounded-lg bg-[#111827] border border-slate-800 flex justify-between">
+                  <span class="font-semibold text-white">Brain Games</span>
+                  <span class="text-slate-400">4-in-1 Logic Fun</span>
+                </div>
+              </div>
               <div class="flex flex-wrap items-center gap-4">
                 <button onclick="navigateTo('our-apps')" class="px-5 py-2.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors">
-                  Explore First Word Specifications
+                  Explore First Word App
                 </button>
                 <button onclick="navigateTo('privacy-first-word')" class="px-5 py-2.5 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700 rounded-lg transition-colors">
                   First Word Privacy Policy
                 </button>
               </div>
             </div>
-            <div class="lg:col-span-5 p-6 rounded-xl bg-[#111827] border border-slate-800 space-y-4">
-              <h3 class="font-display text-base font-semibold text-white">Key Capabilities</h3>
-              <ul class="space-y-3 text-sm text-slate-300">
-                <li class="flex justify-between border-b border-slate-800/80 pb-2"><span>01. Alphabet Categories</span><span class="text-slate-400">Visual &amp; Phonetic A–Z</span></li>
-                <li class="flex justify-between border-b border-slate-800/80 pb-2"><span>02. Letter Tracing</span><span class="text-slate-400">Guided Stroke Paths</span></li>
-                <li class="flex justify-between border-b border-slate-800/80 pb-2"><span>03. Shape Recognition</span><span class="text-slate-400">Spatial Geometry</span></li>
-                <li class="flex justify-between border-b border-slate-800/80 pb-2"><span>04. Interactive Quizzes</span><span class="text-slate-400">Positive Reinforcement</span></li>
-                <li class="flex justify-between"><span>05. Parental Child-Lock</span><span class="text-slate-400">Verified Parent Gate</span></li>
-              </ul>
+            <div class="lg:col-span-5 flex justify-center">
+              <div class="max-w-xs w-full rounded-3xl overflow-hidden border-4 border-slate-800 bg-[#111827] shadow-2xl">
+                <img src="/assets/aistudio/screenshot_2_f2c2e25d.png" alt="First Word Mobile App Main Screen" class="w-full h-auto object-cover" />
+              </div>
             </div>
           </div>
         </div>
@@ -261,7 +290,7 @@
     <section id="view-mission-vision" class="view-section">
       <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
         <div class="max-w-3xl mb-14">
-          <p class="text-xs text-slate-400 mb-3">Corporate Direction · Purpose &amp; Long-Term Outlook</p>
+          <p class="text-xs text-slate-400 mb-3">Corporate Direction &middot; Purpose &amp; Long-Term Outlook</p>
           <h1 class="font-display text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
             Mission &amp; Vision
           </h1>
@@ -271,36 +300,33 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
-          <!-- Our Mission Card -->
           <article class="p-8 sm:p-10 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
             <div>
-              <p class="text-xs text-blue-400 font-mono mb-3">01 · Purpose Statement</p>
+              <p class="text-xs text-sky-400 font-mono mb-3">01 &middot; Purpose Statement</p>
               <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mb-5">Our Mission</h2>
               <p class="text-slate-200 text-base sm:text-lg leading-relaxed">
                 "To create innovative, user-friendly, and meaningful mobile applications that make everyday life easier, smarter, and more enjoyable. We aim to turn creative ideas into reliable digital solutions through technology, simplicity, and continuous innovation."
               </p>
             </div>
             <div class="mt-8 pt-6 border-t border-slate-800/80 text-xs text-slate-400">
-              Simplicity · Reliability · Continuous Innovation
+              Simplicity &middot; Reliability &middot; Continuous Innovation
             </div>
           </article>
 
-          <!-- Our Vision Card -->
           <article class="p-8 sm:p-10 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
             <div>
-              <p class="text-xs text-blue-400 font-mono mb-3">02 · Global Aspiration</p>
+              <p class="text-xs text-sky-400 font-mono mb-3">02 &middot; Global Aspiration</p>
               <h2 class="font-display text-2xl sm:text-3xl font-bold text-white mb-5">Our Vision</h2>
               <p class="text-slate-200 text-base sm:text-lg leading-relaxed">
                 "To become a globally recognized technology company, known for developing innovative mobile applications and digital solutions that make a positive difference in people's lives. We aspire to shape the future through creativity, technology, and excellence."
               </p>
             </div>
             <div class="mt-8 pt-6 border-t border-slate-800/80 text-xs text-slate-400">
-              Creativity · Technology · Global Excellence
+              Creativity &middot; Technology &middot; Global Excellence
             </div>
           </article>
         </div>
 
-        <!-- Core Values on Mission & Vision Page -->
         <div class="pt-12 border-t border-slate-800">
           <h2 class="font-display text-2xl font-bold text-white mb-8">The Four Pillars Supporting Our Mission</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -329,72 +355,80 @@
     <section id="view-our-apps" class="view-section">
       <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
         <div class="max-w-3xl mb-14">
-          <p class="text-xs text-slate-400 mb-3">Product Portfolio · Mobile Applications</p>
+          <p class="text-xs text-slate-400 mb-3">Product Portfolio &middot; Mobile Applications</p>
           <h1 class="font-display text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
             Our Apps
           </h1>
           <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
-            Thoughtfully engineered mobile applications built with intuitive interfaces, offline-ready performance, and strict privacy standards.
+            Interactive, family-friendly mobile applications crafted by First Tech Sol.
           </p>
         </div>
 
-        <!-- Flagship App Showcase: First Word -->
         <div class="p-8 sm:p-10 rounded-xl bg-[#111827] border border-slate-800 mb-12">
-          <div class="flex flex-wrap items-baseline justify-between gap-4 pb-8 border-b border-slate-800">
-            <div>
-              <p class="text-xs text-blue-400 mb-2">Upcoming Educational Release · Ages 2–6 · iOS &amp; Android</p>
-              <h2 class="font-display text-3xl font-bold text-white">First Word</h2>
-            </div>
-            <div class="flex items-center gap-3">
-              <button onclick="navigateTo('privacy-first-word')" class="px-4 py-2 text-xs font-semibold text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500 rounded-lg transition-colors">
-                View First Word Privacy Policy
-              </button>
-            </div>
-          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex flex-wrap items-baseline justify-between gap-4 border-b border-slate-800 pb-6">
+                <div>
+                  <p class="text-xs text-sky-400 mb-2">Learn &middot; Explore &middot; Grow &middot; "Big words make big dreams!"</p>
+                  <h2 class="font-display text-3xl font-bold text-white">First Word</h2>
+                </div>
+                <button onclick="navigateTo('privacy-first-word')" class="px-4 py-2 text-xs font-semibold text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500 rounded-lg transition-colors">
+                  First Word Privacy Policy
+                </button>
+              </div>
 
-          <p class="text-slate-300 leading-relaxed my-8 max-w-3xl">
-            First Word is an upcoming educational mobile application for children crafted to make foundational literacy and spatial recognition engaging, tactile, and completely safe for independent early learners.
-          </p>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="p-6 rounded-xl bg-[#090D16] border border-slate-800/90">
-              <p class="font-mono text-xs text-blue-400 mb-2">01 · Literacy Foundation</p>
-              <h3 class="font-display text-lg font-semibold text-white mb-2">Alphabet Categories</h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                Structured A-to-Z vocabulary grouped into relatable everyday themes including Animals, Foods, Vehicles, and Nature with clear voice pronunciation.
+              <p class="text-slate-300 leading-relaxed">
+                First Word is an interactive educational app for children featuring Alphabet &amp; Vocabulary categories ("Start Learning!"), Shape Recognition, A-to-Z Letter Tracing, Digital Coloring, Multi-Level Quizzes, 25 Color Shades, 4-in-1 Brain Games, and Kid Lock parental security.
               </p>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-amber-400 font-mono mb-1">01 &middot; Start Learning!</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Alphabet &amp; Word Categories</h3>
+                  <p class="text-xs text-slate-400">Interactive ABC, 123, Words, Math, and Reading foundations with voice audio.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-sky-400 font-mono mb-1">02 &middot; Audio &amp; Fun</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Learn Shapes</h3>
+                  <p class="text-xs text-slate-400">Discover geometric shapes through playful audio cues and visual recognition.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-emerald-400 font-mono mb-1">03 &middot; Trace A to Z</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Start Tracing</h3>
+                  <p class="text-xs text-slate-400">Guided letter and number stroke tracing from A to Z for fine motor skills.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-rose-400 font-mono mb-1">04 &middot; Fun Digital Art</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Start Coloring</h3>
+                  <p class="text-xs text-slate-400">Creative digital art coloring pages designed for young imaginations.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-purple-400 font-mono mb-1">05 &middot; Easy &middot; Med &middot; Hard</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Start Quiz</h3>
+                  <p class="text-xs text-slate-400">Three progressive difficulty modes to test vocabulary, shapes, and letters.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-orange-400 font-mono mb-1">06 &middot; 25 Fun Shades</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Learn Colors</h3>
+                  <p class="text-xs text-slate-400">Explore 25 vibrant color shades with real-world visual examples.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-cyan-400 font-mono mb-1">07 &middot; 4-in-1 Logic Fun</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Brain Games</h3>
+                  <p class="text-xs text-slate-400">Four engaging logic, pattern, and memory puzzle games for growing minds.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-[#090D16] border border-slate-800">
+                  <p class="text-xs text-blue-400 font-mono mb-1">08 &middot; Parental Child-Lock</p>
+                  <h3 class="font-display text-base font-semibold text-white mb-1">Kid Lock Security</h3>
+                  <p class="text-xs text-slate-400">Dedicated Kid Lock button and parent-gated external links keep kids safe.</p>
+                </div>
+              </div>
             </div>
 
-            <div class="p-6 rounded-xl bg-[#090D16] border border-slate-800/90">
-              <p class="font-mono text-xs text-blue-400 mb-2">02 · Motor Skill Development</p>
-              <h3 class="font-display text-lg font-semibold text-white mb-2">Letter Tracing</h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                Interactive directional stroke guides for uppercase and lowercase letters that build handwriting confidence through gentle visual feedback.
-              </p>
-            </div>
-
-            <div class="p-6 rounded-xl bg-[#090D16] border border-slate-800/90">
-              <p class="font-mono text-xs text-blue-400 mb-2">03 · Visual Cognition</p>
-              <h3 class="font-display text-lg font-semibold text-white mb-2">Shape Recognition</h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                Hands-on discovery modules teaching fundamental geometric shapes and real-world object matching.
-              </p>
-            </div>
-
-            <div class="p-6 rounded-xl bg-[#090D16] border border-slate-800/90">
-              <p class="font-mono text-xs text-blue-400 mb-2">04 · Active Recall</p>
-              <h3 class="font-display text-lg font-semibold text-white mb-2">Interactive Quizzes</h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                Playful, stress-free audio and visual recognition quizzes that celebrate progress without punitive timers or dark patterns.
-              </p>
-            </div>
-
-            <div class="p-6 rounded-xl bg-[#090D16] border border-slate-800/90 md:col-span-2 lg:col-span-2">
-              <p class="font-mono text-xs text-blue-400 mb-2">05 · Protected Environment</p>
-              <h3 class="font-display text-lg font-semibold text-white mb-2">Parental Child-Lock Security</h3>
-              <p class="text-sm text-slate-300 leading-relaxed">
-                Built-in parental gate protection prevents accidental exits, locks configuration menus behind parent verification prompts, and guarantees a 100% ad-free, offline-capable learning space.
-              </p>
+            <div class="lg:col-span-5 flex justify-center">
+              <div class="max-w-xs w-full rounded-3xl overflow-hidden border-4 border-slate-800 bg-[#090D16] shadow-2xl">
+                <img src="/assets/aistudio/screenshot_2_f2c2e25d.png" alt="First Word Main Page Screenshot" class="w-full h-auto object-cover" />
+              </div>
             </div>
           </div>
         </div>
@@ -405,22 +439,22 @@
     <section id="view-privacy-policies" class="view-section">
       <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
         <div class="max-w-3xl mb-12">
-          <p class="text-xs text-slate-400 mb-3">Legal &amp; Data Transparency · Multi-Policy Portal</p>
+          <p class="text-xs text-slate-400 mb-3">Legal &amp; Data Transparency &middot; Multi-Policy Portal</p>
           <h1 class="font-display text-3xl sm:text-5xl font-bold text-white tracking-tight mb-4">
             Privacy Policies
           </h1>
           <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
-            At First Tech Sol, each application and corporate service maintains a dedicated, transparent privacy policy tailored to its specific audience and data handling model.
+            Each application and corporate service at First Tech Sol has its own separate, dedicated privacy policy view.
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <article class="p-8 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
             <div>
-              <p class="text-xs text-blue-400 mb-2">Application Policy · Children's Educational App</p>
+              <p class="text-xs text-sky-400 mb-2">Application Policy &middot; Children's Educational App</p>
               <h2 class="font-display text-2xl font-bold text-white mb-3">First Word — App Privacy Policy</h2>
               <p class="text-sm text-slate-300 leading-relaxed mb-6">
-                Dedicated privacy policy governing the First Word mobile application. Details our strict zero-data-collection guarantee for children, offline local progress storage, and parental child-lock security safeguards.
+                Dedicated privacy policy governing the First Word mobile application. Details our child privacy protections, local progress storage, Kid-Safe contextual advertising practices, and Kid Lock parental safeguards.
               </p>
             </div>
             <div>
@@ -432,7 +466,7 @@
 
           <article class="p-8 rounded-xl bg-[#111827] border border-slate-800 flex flex-col justify-between">
             <div>
-              <p class="text-xs text-blue-400 mb-2">Corporate Policy · Website &amp; General Services</p>
+              <p class="text-xs text-sky-400 mb-2">Corporate Policy &middot; Website &amp; General Services</p>
               <h2 class="font-display text-2xl font-bold text-white mb-3">First Tech Sol — General Services Privacy Policy</h2>
               <p class="text-sm text-slate-300 leading-relaxed mb-6">
                 Dedicated privacy policy governing www.firsttechsol.com, direct customer support communications, and general corporate digital services.
@@ -452,7 +486,7 @@
     <section id="view-privacy-first-word" class="view-section">
       <div class="max-w-4xl mx-auto px-6 py-16 lg:py-24">
         <div class="mb-8 flex flex-wrap items-center justify-between gap-4">
-          <button onclick="navigateTo('privacy-policies')" class="text-xs font-medium text-blue-400 hover:text-blue-300">
+          <button onclick="navigateTo('privacy-policies')" class="text-xs font-medium text-sky-400 hover:text-sky-300">
             &larr; Back to All Privacy Policies
           </button>
           <button onclick="navigateTo('privacy-general')" class="text-xs font-medium text-slate-400 hover:text-white">
@@ -462,12 +496,12 @@
 
         <div class="p-8 sm:p-12 rounded-xl bg-[#111827] border border-slate-800 space-y-8">
           <div class="border-b border-slate-800 pb-6">
-            <p class="text-xs text-blue-400 mb-2">Dedicated Application Privacy Policy · Effective Year 2026</p>
+            <p class="text-xs text-sky-400 mb-2">Dedicated Application Privacy Policy &middot; Effective Year 2026</p>
             <h1 class="font-display text-2xl sm:text-4xl font-bold text-white mb-2">
               Privacy Policy — First Word Mobile Application
             </h1>
             <p class="text-xs text-slate-400">
-              Published by First Tech Sol · www.firsttechsol.com · COPPA &amp; GDPR-K Aligned
+              Published by First Tech Sol &middot; www.firsttechsol.com &middot; Google Play Families &amp; COPPA Aligned
             </p>
           </div>
 
@@ -475,35 +509,40 @@
             <div>
               <h2 class="font-display text-lg font-semibold text-white mb-2">1. Overview &amp; Commitment to Children's Privacy</h2>
               <p>
-                First Tech Sol ("we", "our", or "us") developed the <strong>First Word</strong> mobile application as a safe, self-contained educational environment for young children. We recognize the heightened obligation to protect children's privacy under the Children's Online Privacy Protection Act (COPPA) and global child data protection regulations.
+                First Tech Sol ("we", "our", or "us") developed the <strong>First Word</strong> mobile application as an educational learning environment for children featuring Alphabet categories, Learn Shapes, Start Tracing, Start Coloring, Start Quiz, Learn Colors, Brain Games, and Kid Lock security.
               </p>
             </div>
 
             <div>
-              <h2 class="font-display text-lg font-semibold text-white mb-2">2. Zero Personal Data Collection from Children</h2>
+              <h2 class="font-display text-lg font-semibold text-white mb-2">2. Personal Data &amp; Account-Free Usage</h2>
               <p>
-                First Word does <strong>not</strong> require user registration, accounts, or sign-ins. The application does not collect, store, or transmit any personally identifiable information (PII), such as names, email addresses, physical addresses, phone numbers, photos, microphone recordings, or precise geolocation data.
+                First Word does <strong>not</strong> require user registration, accounts, or sign-ins. We do not directly collect or store personally identifiable information (PII) such as a child's name, email address, home address, phone number, photos, microphone recordings, or precise GPS location.
               </p>
             </div>
 
             <div>
-              <h2 class="font-display text-lg font-semibold text-white mb-2">3. Local-Only Learning Progress</h2>
+              <h2 class="font-display text-lg font-semibold text-white mb-2">3. Advertising &amp; Kid-Safe Ad Networks</h2>
               <p>
-                All educational activity—including completed alphabet categories, letter tracing milestones, shape recognition progress, and quiz scores—is stored strictly locally on your device. Uninstalling the application permanently deletes this local data.
+                To keep First Word free and accessible to families worldwide, the application displays contextual, family-safe advertisements (such as Google AdMob configured with child-directed treatment settings). All advertisements served within First Word adhere to child-protection standards:
+              </p>
+              <ul class="list-disc pl-5 mt-2 space-y-1.5">
+                <li><strong>Kids-Safe Contextual Ads Only:</strong> Ads are restricted to family-friendly, age-appropriate content and do not use interest-based behavioral tracking or remarketing.</li>
+                <li><strong>Limited Technical Identifiers:</strong> Certified ad SDKs may automatically process non-personal technical data (such as device model, OS version, language, coarse country/region, and resettable advertising IDs) strictly for contextual ad delivery, frequency capping, and fraud prevention.</li>
+                <li><strong>Locked External Ad Navigation:</strong> External ad buttons (such as "Visit") are protected behind First Word's parental lock mechanism to prevent accidental exits by young children.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="font-display text-lg font-semibold text-white mb-2">4. Local On-Device Learning Progress</h2>
+              <p>
+                All learning progress—including completed alphabet words, letter tracing stars, coloring creations, quiz scores, and Kid Lock settings—is saved locally on your device. Uninstalling the application removes this local app data.
               </p>
             </div>
 
             <div>
-              <h2 class="font-display text-lg font-semibold text-white mb-2">4. Parental Child-Lock Security Gate</h2>
+              <h2 class="font-display text-lg font-semibold text-white mb-2">5. Kid Lock &amp; Parental Security Controls</h2>
               <p>
-                First Word incorporates a dedicated Parental Child-Lock Security mechanism. Any access to parent settings or external support information requires passing an adult verification challenge, ensuring young learners cannot accidentally leave the app or alter device preferences.
-              </p>
-            </div>
-
-            <div>
-              <h2 class="font-display text-lg font-semibold text-white mb-2">5. Zero Third-Party Behavioral Advertising</h2>
-              <p>
-                First Word contains zero third-party banner ads, interstitial ads, or behavioral tracking SDKs. We never monetize children's attention or share device identifiers with advertising networks.
+                First Word includes a dedicated <strong>Kid Lock</strong> security feature on the main screen and a parent verification gate before any external link or configuration change can be accessed.
               </p>
             </div>
 
@@ -522,7 +561,7 @@
     <section id="view-privacy-general" class="view-section">
       <div class="max-w-4xl mx-auto px-6 py-16 lg:py-24">
         <div class="mb-8 flex flex-wrap items-center justify-between gap-4">
-          <button onclick="navigateTo('privacy-policies')" class="text-xs font-medium text-blue-400 hover:text-blue-300">
+          <button onclick="navigateTo('privacy-policies')" class="text-xs font-medium text-sky-400 hover:text-sky-300">
             &larr; Back to All Privacy Policies
           </button>
           <button onclick="navigateTo('privacy-first-word')" class="text-xs font-medium text-slate-400 hover:text-white">
@@ -532,7 +571,7 @@
 
         <div class="p-8 sm:p-12 rounded-xl bg-[#111827] border border-slate-800 space-y-8">
           <div class="border-b border-slate-800 pb-6">
-            <p class="text-xs text-blue-400 mb-2">Corporate &amp; Web Services Policy · Effective Year 2026</p>
+            <p class="text-xs text-sky-400 mb-2">Corporate &amp; Web Services Policy &middot; Effective Year 2026</p>
             <h1 class="font-display text-2xl sm:text-4xl font-bold text-white mb-2">
               Privacy Policy — First Tech Sol General Services
             </h1>
@@ -566,7 +605,7 @@
             <div>
               <h2 class="font-display text-lg font-semibold text-white mb-2">4. Data Sharing &amp; Security</h2>
               <p>
-                First Tech Sol does not sell, rent, or trade your personal information to third parties. We implement industry-standard HTTPS encryption and strict access controls to protect all communications.
+                First Tech Sol does not sell, rent, or trade your personal contact information to third parties. We implement industry-standard HTTPS encryption and strict access controls to protect all communications.
               </p>
             </div>
 
@@ -585,9 +624,12 @@
   <!-- FOOTER -->
   <footer class="border-t border-slate-800/80 bg-[#070A12] py-12">
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-      <div class="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
-        <span class="font-display text-sm font-bold tracking-tight text-white">FIRST TECH SOL</span>
-        <span class="hidden sm:inline text-slate-700" aria-hidden="true">·</span>
+      <div class="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
+        <div class="flex items-center gap-2.5">
+          <img src="/assets/aistudio/Company_Logo_7f2a0681.jfif" alt="First Tech Sol Logo" class="w-7 h-7 rounded-md object-cover border border-slate-800" />
+          <span class="font-display text-sm font-bold tracking-tight"><span class="text-white">FIRST</span> <span class="text-sky-400">TECH SOL</span></span>
+        </div>
+        <span class="hidden sm:inline text-slate-700" aria-hidden="true">&middot;</span>
         <p class="text-xs text-slate-400">Copyright &copy; 2026 First Tech Sol. All rights reserved.</p>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
@@ -614,7 +656,6 @@
     function navigateTo(viewId, updateHash = true) {
       const targetView = VALID_VIEWS.includes(viewId) ? viewId : 'home';
 
-      // Toggle active view section
       document.querySelectorAll('.view-section').forEach((section) => {
         section.classList.remove('active');
       });
@@ -623,7 +664,6 @@
         activeEl.classList.add('active');
       }
 
-      // Highlight matching top nav link
       const navGroup = targetView.startsWith('privacy-') ? 'privacy-policies' : targetView;
       document.querySelectorAll('.nav-link').forEach((link) => {
         if (link.getAttribute('data-nav') === navGroup) {

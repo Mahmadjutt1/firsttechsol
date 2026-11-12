@@ -1,6 +1,0 @@
-{
-  "name": "First Tech Sol — Software Engineering & Digital Products",
-  "description": "Official corporate website and product hub for First Tech Sol, showcasing First Word early-childhood educational software, multi-platform utilities, and authoritative privacy governance.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

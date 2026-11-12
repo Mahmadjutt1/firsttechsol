@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service &amp; Global EULA | First Tech Sol</title>
+    <meta
+      name="description"
+      content="Official Global Terms of Service and End-User License Agreement (EULA) for First Tech Sol websites, mobile applications, utilities, and educational software including First Word."
+    />
+    <meta property="og:title" content="Terms of Service &amp; Global EULA | First Tech Sol" />
+    <meta
+      property="og:description"
+      content="Internationally compliant Terms of Service and End-User License Agreement governing First Tech Sol digital products and mobile applications worldwide."
+    />
+    <meta property="og:type" content="article" />
+    <meta name="theme-color" content="#080e1b" />
+
+    <!-- Google Fonts: Plus Jakarta Sans + DM Sans + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              tech: {
+                bg: '#080e1b',
+                surface: '#0d1320',
+                card: '#111827',
+                cyan: '#00d2ff',
+                blue: '#1d6bf3',
+              },
+            },
+            fontFamily: {
+              display: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+              sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+            boxShadow: {
+              cyanGlow: '0 0 36px -6px rgba(0, 210, 255, 0.25)',
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      html,
+      body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        background-color: #080e1b;
+        background-image:
+          radial-gradient(circle at 12% 10%, rgba(0, 210, 255, 0.07) 0%, transparent 40%),
+          radial-gradient(circle at 88% 22%, rgba(29, 107, 243, 0.07) 0%, transparent 45%),
+          linear-gradient(180deg, #080e1b 0%, #0d1320 55%, #080e1b 100%);
+        color: #f1f5f9;
+        font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+        overflow-x: hidden;
+      }
+
+      .font-display {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      }
+
+      .glass-card {
+        background: rgba(17, 24, 39, 0.72);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(0, 210, 255, 0.18);
+      }
+
+      .tabular-nums {
+        font-variant-numeric: tabular-nums;
+      }
+
+      .text-balance {
+        text-wrap: balance;
+      }
+
+      .toc-link-active {
+        background-color: rgba(0, 210, 255, 0.12);
+        color: #00d2ff;
+        border-color: rgba(0, 210, 255, 0.35);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        ::before,
+        ::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+
+      @media print {
+        body {
+          background: #ffffff !important;
+          color: #0f172a !important;
+        }
+        .glass-card {
+          background: #ffffff !important;
+          border: 1px solid #cbd5e1 !important;
+          box-shadow: none !important;
+        }
+        #terms-header,
+        #toc-sidebar,
+        #quick-filter-bar {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen antialiased selection:bg-[#00d2ff]/25 selection:text-cyan-100">
+    <!-- =====================================================================
+         TOP NAVIGATION BAR WITH "← Back to Main Website" BREADCRUMB
+    ====================================================================== -->
+    <header
+      id="terms-header"
+      class="sticky top-0 inset-x-0 z-50 bg-[#080e1b]/88 backdrop-blur-md border-b border-cyan-500/20"
+    >
+      <div class="max-w-[1200px] mx-auto px-3.5 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2 sm:gap-4 lg:gap-6">
+        <!-- Zone 1: Brand Wordmark -->
+        <a
+          href="index.html"
+          class="flex items-center gap-2 sm:gap-3 text-base sm:text-lg font-display font-bold tracking-tight text-white whitespace-nowrap shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#00d2ff] rounded-md"
+        >
+          <img
+            src="assets/aistudio/First_Tech_Sol_Logo_3ff0bfb2.png"
+            alt="First Tech Sol emblem"
+            referrerpolicy="no-referrer"
+            onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='/assets/aistudio/First_Tech_Sol_Logo_3ff0bfb2.png';}"
+            class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg object-cover border border-cyan-500/30 bg-[#0d1320] shrink-0"
+          />
+          <span>First Tech <span class="text-[#00d2ff]">Sol</span></span>
+        </a>
+
+        <!-- Zone 2: Breadcrumb & Document Jump Links -->
+        <nav aria-label="Legal navigation" class="hidden lg:flex items-center gap-4 xl:gap-6 text-sm font-medium text-slate-300">
+          <a
+            href="index.html"
+            class="text-[#00d2ff] hover:underline whitespace-nowrap shrink-0"
+          >
+            ← Back to Main Website
+          </a>
+          <a href="#terms-3" class="hover:text-[#00d2ff] transition-colors whitespace-nowrap shrink-0">License &amp; EULA</a>
+          <a href="#terms-5" class="hover:text-[#00d2ff] transition-colors whitespace-nowrap shrink-0">App Stores</a>
+          <a href="#terms-11" class="hover:text-[#00d2ff] transition-colors whitespace-nowrap shrink-0">Global Consumer Rights</a>
+          <a href="First-Word-privacy-policy.html" class="hover:text-[#00d2ff] transition-colors whitespace-nowrap shrink-0">First Word Privacy</a>
+        </nav>
+
+        <!-- Zone 3: Primary Action -->
+        <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+          <a
+            href="index.html"
+            class="lg:hidden inline-flex items-center px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold text-[#00d2ff] border border-cyan-500/30 bg-[#111827] whitespace-nowrap shrink-0"
+          >
+            ← Main Site
+          </a>
+          <button
+            type="button"
+            id="print-terms-btn"
+            class="hidden sm:inline-flex items-center justify-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-lg text-xs font-semibold text-slate-950 bg-[#00d2ff] hover:bg-cyan-300 transition-colors whitespace-nowrap shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00d2ff]"
+          >
+            <span>Print / Save PDF</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-14">
+      <!-- =====================================================================
+           AUTHORITATIVE DOCUMENT HEADER & METADATA BLOCK
+      ====================================================================== -->
+      <div class="glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-10 shadow-cyanGlow">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+          <div class="min-w-0">
+            <div class="text-xs font-mono uppercase tracking-wider text-[#00d2ff]">
+              Global Corporate Legal Framework · Worldwide Jurisdiction Coverage
+            </div>
+            <h1 class="mt-2 font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-white tracking-tight text-balance break-words">
+              TERMS OF SERVICE &amp; END-USER LICENSE AGREEMENT (EULA)
+            </h1>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+            <a
+              href="First-Word-privacy-policy.html"
+              class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#080e1b] border border-cyan-500/30 text-xs font-semibold text-slate-200 hover:text-[#00d2ff] transition-colors whitespace-nowrap shrink-0"
+            >
+              <span>First Word Privacy Policy</span>
+              <span aria-hidden="true">→</span>
+            </a>
+            <button
+              type="button"
+              onclick="window.print()"
+              class="sm:hidden inline-flex items-center justify-center px-3.5 py-2.5 rounded-xl text-xs font-semibold text-slate-950 bg-[#00d2ff] whitespace-nowrap shrink-0"
+            >
+              Print / PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Document Metadata Grid -->
+        <dl class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3.5 sm:gap-4 text-xs">
+          <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-3.5 min-w-0">
+            <dt class="font-mono text-slate-400">Effective Date</dt>
+            <dd class="mt-1 font-semibold text-white text-sm tabular-nums">November 10, 2026</dd>
+          </div>
+          <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-3.5 min-w-0">
+            <dt class="font-mono text-slate-400">Last Updated</dt>
+            <dd class="mt-1 font-semibold text-white text-sm tabular-nums">November 10, 2026</dd>
+          </div>
+          <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-3.5 min-w-0">
+            <dt class="font-mono text-slate-400">Territorial Scope</dt>
+            <dd class="mt-1 font-semibold text-[#00d2ff] text-sm">Global / All Countries</dd>
+          </div>
+          <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-3.5 min-w-0">
+            <dt class="font-mono text-slate-400">Corporate Entity</dt>
+            <dd class="mt-1 font-semibold text-white text-sm">First Tech Sol</dd>
+          </div>
+          <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-3.5 min-w-0 sm:col-span-2 md:col-span-2 xl:col-span-1">
+            <dt class="font-mono text-slate-400">Legal &amp; Support Desk</dt>
+            <dd class="mt-1 font-mono font-semibold text-[#00d2ff] break-all">
+              <a href="mailto:supportfirsttechsol@gmail.com" class="hover:underline">supportfirsttechsol@gmail.com</a>
+            </dd>
+          </div>
+        </dl>
+
+        <!-- Interactive Quick Filter Controls -->
+        <div id="quick-filter-bar" class="mt-6 pt-6 border-t border-slate-800/90 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="flex flex-wrap items-center gap-1.5" role="group" aria-label="Quick Filter Legal Clauses">
+            <span class="text-xs font-mono text-slate-400 mr-2">Quick Filter Clauses:</span>
+            <button
+              type="button"
+              data-topic="all"
+              class="terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-[#00d2ff] text-slate-950 transition-colors whitespace-nowrap shrink-0"
+            >
+              All Clauses (14)
+            </button>
+            <button
+              type="button"
+              data-topic="license"
+              class="terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-[#080e1b] text-slate-300 hover:text-white border border-slate-800 transition-colors whitespace-nowrap shrink-0"
+            >
+              License &amp; IP
+            </button>
+            <button
+              type="button"
+              data-topic="kids"
+              class="terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-[#080e1b] text-slate-300 hover:text-white border border-slate-800 transition-colors whitespace-nowrap shrink-0"
+            >
+              Kids &amp; App Stores
+            </button>
+            <button
+              type="button"
+              data-topic="consumer"
+              class="terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-[#080e1b] text-slate-300 hover:text-white border border-slate-800 transition-colors whitespace-nowrap shrink-0"
+            >
+              Global Consumer Rights
+            </button>
+            <button
+              type="button"
+              data-topic="liability"
+              class="terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-[#080e1b] text-slate-300 hover:text-white border border-slate-800 transition-colors whitespace-nowrap shrink-0"
+            >
+              Liability &amp; Dispute
+            </button>
+          </div>
+
+          <div id="terms-filter-count" class="text-xs font-mono text-slate-400">
+            Showing all 14 international sections
+          </div>
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           2-COLUMN LAYOUT: STICKY TABLE OF CONTENTS + 14 LEGAL SECTIONS
+      ====================================================================== -->
+      <div class="mt-8 sm:mt-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
+        <!-- Sticky Table of Contents Sidebar -->
+        <aside id="toc-sidebar" class="lg:col-span-4 min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
+          <div class="glass-card rounded-2xl p-5">
+            <div class="text-xs font-mono uppercase tracking-wider text-[#00d2ff] pb-3 border-b border-slate-800">
+              Table of Contents (Clauses 1–14)
+            </div>
+            <nav aria-label="Table of Contents" class="mt-3 space-y-1 text-xs sm:text-sm">
+              <a
+                href="#terms-1"
+                data-toc-target="terms-1"
+                class="toc-link toc-link-active flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">1. Acceptance &amp; Scope of Terms</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§1</span>
+              </a>
+              <a
+                href="#terms-2"
+                data-toc-target="terms-2"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">2. Eligibility &amp; Family / Child Safety</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§2</span>
+              </a>
+              <a
+                href="#terms-3"
+                data-toc-target="terms-3"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">3. End-User License Agreement (EULA)</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§3</span>
+              </a>
+              <a
+                href="#terms-4"
+                data-toc-target="terms-4"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">4. Intellectual Property Rights</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§4</span>
+              </a>
+              <a
+                href="#terms-5"
+                data-toc-target="terms-5"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">5. App Store &amp; Platform Provisions</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§5</span>
+              </a>
+              <a
+                href="#terms-6"
+                data-toc-target="terms-6"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">6. Acceptable Use &amp; Restrictions</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§6</span>
+              </a>
+              <a
+                href="#terms-7"
+                data-toc-target="terms-7"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">7. Privacy &amp; Contextual Advertising</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§7</span>
+              </a>
+              <a
+                href="#terms-8"
+                data-toc-target="terms-8"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">8. Software Updates &amp; Availability</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§8</span>
+              </a>
+              <a
+                href="#terms-9"
+                data-toc-target="terms-9"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">9. Disclaimer of Warranties</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§9</span>
+              </a>
+              <a
+                href="#terms-10"
+                data-toc-target="terms-10"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">10. Limitation of Liability</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§10</span>
+              </a>
+              <a
+                href="#terms-11"
+                data-toc-target="terms-11"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">11. Global Statutory Consumer Rights</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§11</span>
+              </a>
+              <a
+                href="#terms-12"
+                data-toc-target="terms-12"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">12. Export Control &amp; International Compliance</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§12</span>
+              </a>
+              <a
+                href="#terms-13"
+                data-toc-target="terms-13"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">13. Governing Law, Dispute &amp; Severability</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§13</span>
+              </a>
+              <a
+                href="#terms-14"
+                data-toc-target="terms-14"
+                class="toc-link flex items-center justify-between gap-2 px-3 py-2 rounded-lg border border-transparent text-slate-300 hover:text-white transition-colors"
+              >
+                <span class="truncate">14. Contact Information</span>
+                <span class="font-mono text-xs text-slate-500 shrink-0">§14</span>
+              </a>
+            </nav>
+
+            <div class="mt-5 pt-4 border-t border-slate-800 space-y-2 text-xs">
+              <div class="text-slate-400">Legal &amp; compliance inquiries:</div>
+              <a
+                href="mailto:supportfirsttechsol@gmail.com"
+                class="block font-mono text-[#00d2ff] hover:underline break-all"
+              >
+                supportfirsttechsol@gmail.com
+              </a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ===================================================================
+             14 INTERNATIONAL LEGAL SECTIONS
+        ==================================================================== -->
+        <div class="lg:col-span-8 min-w-0 space-y-6">
+          <!-- SECTION 1: ACCEPTANCE & SCOPE OF TERMS -->
+          <section
+            id="terms-1"
+            data-topics="license consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                1. ACCEPTANCE &amp; GLOBAL SCOPE OF TERMS
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 01</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              Welcome to First Tech Sol ("First Tech Sol," "Company," "we," "us," or "our"). These Terms of Service and End-User License Agreement ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and First Tech Sol governing your access to and use of our corporate website, mobile applications (including <strong class="text-white">First Word</strong>), productivity suites, system utilities, and related documentation or digital services (collectively, the "Services").
+            </p>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              By downloading, installing, accessing, or using any of our Services in any country or jurisdiction worldwide, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, you must not install, access, or use the Services.
+            </p>
+          </section>
+
+          <!-- SECTION 2: ELIGIBILITY & FAMILY / CHILD SAFETY -->
+          <section
+            id="terms-2"
+            data-topics="kids consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                2. ELIGIBILITY, MINORS &amp; PARENTAL CONSENT
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 02</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              Our general corporate website, productivity software, and system utilities are intended for users who have reached the age of legal majority in their country or jurisdiction of residence, or who have obtained verifiable consent from a parent or legal guardian.
+            </p>
+
+            <div class="rounded-xl bg-emerald-950/25 border border-emerald-500/30 p-4 sm:p-5 space-y-2 text-sm text-slate-200 leading-relaxed">
+              <div class="font-semibold text-emerald-300">
+                Special Provision for Early-Childhood Educational Applications (First Word):
+              </div>
+              <p>
+                Certain applications published by First Tech Sol, such as <strong class="text-white">First Word</strong>, are specifically designed for young children (ages 2 to 7) to use under the supervision of a parent, legal guardian, or educator. When a parent, legal guardian, or authorized educator downloads or provides a child with access to an educational application developed by First Tech Sol, that adult accepts these Terms on behalf of themselves and the child and assumes full responsibility for supervising the child's use of the device, configuring optional features such as the Parental Child Lock (Screen Pinning), and passing the Mathematical Parental Gate.
+              </p>
+            </div>
+          </section>
+
+          <!-- SECTION 3: END-USER LICENSE AGREEMENT (EULA) -->
+          <section
+            id="terms-3"
+            data-topics="license kids"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                3. END-USER LICENSE AGREEMENT (EULA)
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 03</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              Subject to your ongoing compliance with these Terms, First Tech Sol grants you a personal, limited, non-exclusive, non-transferable, non-sublicensable, and revocable license to download, install, and use our mobile and desktop software applications solely for your personal, non-commercial, or internal educational use on devices that you own or lawfully control.
+            </p>
+
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-200">
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                <strong class="text-white">Licensed, Not Sold:</strong> All First Tech Sol software applications are licensed, not sold, to you. First Tech Sol reserves all rights not expressly granted in these Terms.
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                <strong class="text-white">Offline &amp; Local Execution:</strong> Where an application operates offline (such as First Word's 260 flashcards, tracing modules, coloring book, and games), your license includes the right to execute those bundled assets locally on your device.
+              </li>
+            </ul>
+          </section>
+
+          <!-- SECTION 4: INTELLECTUAL PROPERTY RIGHTS -->
+          <section
+            id="terms-4"
+            data-topics="license"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                4. INTELLECTUAL PROPERTY &amp; PROPRIETARY RIGHTS
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 04</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              All rights, title, and interest in and to the Services—including but not limited to software source code, object code, architecture, algorithms, user interface designs, educational illustrations, flashcards, coloring outlines, audio scripts, trademarks, service marks, logos (including the <strong class="text-white">First Tech Sol</strong> name and circuit emblem and the <strong class="text-white">First Word</strong> brand), and documentation—are owned exclusively by First Tech Sol or its licensors.
+            </p>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              These proprietary materials are protected by copyright, trademark, patent, trade secret, and other intellectual property laws of the United States, the European Union, the United Kingdom, and international treaties (including the Berne Convention and WIPO Copyright Treaty) in force across all participating countries.
+            </p>
+          </section>
+
+          <!-- SECTION 5: APP STORE & PLATFORM PROVISIONS -->
+          <section
+            id="terms-5"
+            data-topics="kids license consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                5. THIRD-PARTY APP STORES &amp; PLATFORM TERMS
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 05</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              When you download a First Tech Sol application from a third-party digital distribution platform such as the <strong class="text-white">Google Play Store</strong> or the <strong class="text-white">Apple App Store</strong> (each, an "App Provider"), you acknowledge and agree that:
+            </p>
+
+            <ul class="space-y-2.5 text-sm text-slate-200">
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                - These Terms are concluded solely between you and First Tech Sol, and not with the App Provider (such as Google LLC or Apple Inc.). First Tech Sol, not the App Provider, is solely responsible for the licensed application and its content.
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                - Your use of the application must also comply with the applicable App Provider's Terms of Service (including Google Play Terms of Service and Google Play Families rules, or Apple Media Services Terms and Conditions).
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                - The App Provider has no obligation whatsoever to furnish any maintenance and support services with respect to the application.
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                - The App Provider and its subsidiaries are third-party beneficiaries of these Terms as related to your license of the application, and upon your acceptance of these Terms, the App Provider will have the right to enforce these Terms as related to your license against you as a third-party beneficiary thereof.
+              </li>
+            </ul>
+          </section>
+
+          <!-- SECTION 6: ACCEPTABLE USE & RESTRICTIONS -->
+          <section
+            id="terms-6"
+            data-topics="license"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                6. ACCEPTABLE USE &amp; PROHIBITED CONDUCT
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 06</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              Except as expressly permitted by these Terms or to the extent that such restrictions are expressly prohibited by mandatory applicable law in your jurisdiction (such as statutory interoperability exceptions under European Union Directive 2009/24/EC), you agree not to:
+            </p>
+
+            <ul class="space-y-2.5 text-sm text-slate-200">
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 px-4 py-3">
+                - Copy, modify, translate, adapt, or create derivative works based upon any First Tech Sol application, website, or educational asset;
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 px-4 py-3">
+                - Reverse engineer, decompile, disassemble, or attempt to derive the source code, underlying algorithms, or asset bundles of our software;
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 px-4 py-3">
+                - Rent, lease, lend, sell, redistribute, repackage (including unauthorized APK mirroring or sideloading modification), or sublicense any First Tech Sol application;
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 px-4 py-3">
+                - Remove, alter, or obscure any copyright, trademark, or other proprietary rights notice embedded in the Services; or
+              </li>
+              <li class="rounded-xl bg-[#080e1b]/90 border border-slate-800 px-4 py-3">
+                - Use automated bots, scrapers, or fraudulent network traffic to interfere with the integrity of our website or contextual advertising delivery.
+              </li>
+            </ul>
+          </section>
+
+          <!-- SECTION 7: PRIVACY & CONTEXTUAL ADVERTISING -->
+          <section
+            id="terms-7"
+            data-topics="kids consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                7. DATA PRIVACY &amp; CHILD-SAFE ADVERTISING
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 07</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              First Tech Sol engineers each application with strict, vertical-specific data governance. Our collection, local device storage, and protection of information are governed by the applicable product Privacy Policy.
+            </p>
+
+            <div class="rounded-xl bg-[#080e1b]/90 border border-cyan-500/30 p-5 space-y-3 text-sm text-slate-200">
+              <div class="font-semibold text-white">
+                Application-Specific Privacy Policies:
+              </div>
+              <p class="leading-relaxed">
+                For <strong class="text-white">First Word (Version 1.0)</strong>, please review the official
+                <a href="First-Word-privacy-policy.html" class="text-[#00d2ff] hover:underline font-medium">First Word Privacy Policy</a>,
+                which details our compliance with the U.S. Children's Online Privacy Protection Act (COPPA), EU/UK GDPR-K, and Google Play Families Policies, including zero personal data collection from children, 100% local storage of Parental Child Lock PINs, and non-personalized "G"-rated contextual banner advertising via Google AdMob.
+              </p>
+            </div>
+          </section>
+
+          <!-- SECTION 8: SOFTWARE UPDATES & AVAILABILITY -->
+          <section
+            id="terms-8"
+            data-topics="license consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                8. SOFTWARE UPDATES, MODIFICATIONS &amp; AVAILABILITY
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 08</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              First Tech Sol may from time to time develop and provide software updates, patches, bug fixes, security enhancements, or new educational modules ("Updates"). Depending on your device settings, Updates may be downloaded and installed automatically through your App Provider or offered for manual installation.
+            </p>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              You agree that First Tech Sol has no obligation to provide any specific future features, and that any Updates provided will be governed by these Terms unless accompanied by a separate license agreement. Where required by mandatory consumer law (such as EU Digital Content Directive (EU) 2019/770), we will provide necessary security and conformity updates for the period required by applicable law.
+            </p>
+          </section>
+
+          <!-- SECTION 9: DISCLAIMER OF WARRANTIES -->
+          <section
+            id="terms-9"
+            data-topics="liability consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                9. DISCLAIMER OF WARRANTIES
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 09</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION, THE SERVICES AND ALL SOFTWARE APPLICATIONS ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND. FIRST TECH SOL EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT.
+            </p>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              Some jurisdictions (including member states of the European Union, the United Kingdom, Australia, Canada, and certain U.S. states) do not allow the exclusion of implied warranties or statutory consumer guarantees. In such jurisdictions, the above exclusions apply only to the extent permitted by law, and your mandatory statutory warranties remain unaffected as set forth in Section 11.
+            </p>
+          </section>
+
+          <!-- SECTION 10: LIMITATION OF LIABILITY -->
+          <section
+            id="terms-10"
+            data-topics="liability consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                10. LIMITATION OF LIABILITY
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 10</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              TO THE FULLEST EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL FIRST TECH SOL, ITS FOUNDERS, ENGINEERS, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR DEVICE FAILURE) ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE).
+            </p>
+
+            <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4 text-sm text-slate-200 leading-relaxed">
+              <strong class="text-white">Mandatory Statutory Carve-Outs:</strong> Nothing in these Terms excludes or limits First Tech Sol's liability for: (a) death or personal injury caused by negligence; (b) fraud or fraudulent misrepresentation; (c) willful misconduct or gross negligence where such limitation is prohibited by national law; or (d) any other liability that cannot lawfully be excluded or limited under the laws of your country of residence. Subject to the foregoing, First Tech Sol's total aggregate liability to you for all claims arising out of or relating to the Services shall not exceed the greater of the amount you actually paid to First Tech Sol for the specific application in the twelve (12) months preceding the claim or fifty U.S. dollars (USD $50.00) (or local currency equivalent).
+            </div>
+          </section>
+
+          <!-- SECTION 11: GLOBAL STATUTORY CONSUMER RIGHTS -->
+          <section
+            id="terms-11"
+            data-topics="consumer liability"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                11. PRESERVATION OF GLOBAL STATUTORY CONSUMER RIGHTS
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 11</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              First Tech Sol serves users worldwide. If you access or use our Services as a consumer, nothing in these Terms is intended to, nor shall it, waive, restrict, or override any non-waivable statutory rights or remedies granted to you by the mandatory consumer protection laws of your country, state, or province of residence:
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs sm:text-sm text-slate-200">
+              <div class="rounded-xl bg-[#080e1b]/90 border border-cyan-500/25 p-4">
+                <strong class="text-white">European Economic Area (EEA), UK &amp; Switzerland:</strong> You benefit from mandatory statutory guarantees of conformity for digital content and services under EU Directive (EU) 2019/770, national implementing laws, and the UK Consumer Rights Act 2015.
+              </div>
+              <div class="rounded-xl bg-[#080e1b]/90 border border-cyan-500/25 p-4">
+                <strong class="text-white">Australia &amp; New Zealand:</strong> Our goods and services come with guarantees that cannot be excluded under the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010) and the New Zealand Consumer Guarantees Act 1993.
+              </div>
+              <div class="rounded-xl bg-[#080e1b]/90 border border-cyan-500/25 p-4">
+                <strong class="text-white">United States &amp; Canada:</strong> You retain all non-waivable consumer protections provided under applicable federal, state, and provincial consumer protection statutes (including California, Quebec, and Ontario consumer laws).
+              </div>
+              <div class="rounded-xl bg-[#080e1b]/90 border border-cyan-500/25 p-4">
+                <strong class="text-white">Asia-Pacific, Middle East, Africa &amp; Latin America:</strong> In all other countries and jurisdictions globally, any provision of these Terms that conflicts with mandatory local consumer law shall be interpreted to give effect to such mandatory local law.
+              </div>
+            </div>
+          </section>
+
+          <!-- SECTION 12: EXPORT CONTROL & INTERNATIONAL COMPLIANCE -->
+          <section
+            id="terms-12"
+            data-topics="license consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                12. EXPORT CONTROL &amp; SANCTIONS COMPLIANCE
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 12</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              You may not use, export, re-export, import, or transfer any First Tech Sol software application except as authorized by applicable international law, the laws of the jurisdiction in which the application was obtained, and applicable export control and trade sanctions regulations (including U.S., EU, UK, and United Nations sanctions lists). By using our Services, you represent and warrant that you are not located in a comprehensively sanctioned territory where distribution of mobile software is prohibited by law and that you are not listed on any government prohibited or restricted party list.
+            </p>
+          </section>
+
+          <!-- SECTION 13: GOVERNING LAW, DISPUTE RESOLUTION & SEVERABILITY -->
+          <section
+            id="terms-13"
+            data-topics="liability consumer"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-4"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                13. GOVERNING LAW, AMICABLE RESOLUTION &amp; SEVERABILITY
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 13</span>
+            </div>
+
+            <div class="space-y-3.5 text-sm text-slate-200 leading-relaxed">
+              <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                <strong class="text-white">1. Informal Amicable Resolution First:</strong> Most user questions or concerns can be resolved quickly and amicably. Before initiating any formal legal proceeding, you agree to contact First Tech Sol at <a href="mailto:supportfirsttechsol@gmail.com" class="font-mono text-[#00d2ff] hover:underline">supportfirsttechsol@gmail.com</a> and allow thirty (30) days for us to work with you in good faith toward a mutually satisfactory resolution.
+              </div>
+
+              <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                <strong class="text-white">2. Governing Law &amp; Consumer Forum Protection:</strong> These Terms shall be governed by and construed in accordance with the laws applicable in the jurisdiction where First Tech Sol is established, without regard to conflict-of-law principles, except that if you are a consumer habitually residing in a country (such as an EU Member State, the UK, Australia, or Canada) whose mandatory laws grant you the right to rely on the consumer protection laws and courts of your place of residence, those mandatory local laws and forum rights shall apply to you. The United Nations Convention on Contracts for the International Sale of Goods (CISG) is expressly excluded.
+              </div>
+
+              <div class="rounded-xl bg-[#080e1b]/90 border border-slate-800 p-4">
+                <strong class="text-white">3. Severability &amp; No Waiver:</strong> If any provision or clause of these Terms is held by a court of competent jurisdiction in any country to be invalid, illegal, or unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable (or severed if modification is not possible), and the remaining provisions of these Terms shall remain in full force and effect worldwide.
+              </div>
+            </div>
+          </section>
+
+          <!-- SECTION 14: CONTACT INFORMATION -->
+          <section
+            id="terms-14"
+            data-topics="license kids consumer liability"
+            class="terms-section glass-card rounded-2xl p-5 sm:p-8 scroll-mt-24 space-y-5"
+          >
+            <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-slate-800 pb-3">
+              <h2 class="font-display text-lg sm:text-xl md:text-2xl font-bold text-white">
+                14. CONTACT US
+              </h2>
+              <span class="text-xs font-mono text-[#00d2ff] shrink-0">SECTION 14</span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
+              If you have any questions, legal notices, or inquiries regarding these Terms of Service &amp; EULA or any First Tech Sol software product, please contact us at:
+            </p>
+
+            <div class="rounded-2xl bg-[#080e1b]/95 border border-cyan-500/30 p-5 sm:p-6 space-y-3 text-sm">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <div class="font-mono text-slate-400">Company / Publisher :</div>
+                <div class="sm:col-span-2 font-semibold text-white">First Tech Sol</div>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <div class="font-mono text-slate-400">Covered Products :</div>
+                <div class="sm:col-span-2 font-semibold text-white">Corporate Website, First Word (v1.0) &amp; All Software Suites</div>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <div class="font-mono text-slate-400">Official Email :</div>
+                <div class="sm:col-span-2 font-mono font-semibold text-[#00d2ff] break-all">
+                  <a href="mailto:supportfirsttechsol@gmail.com" class="hover:underline">
+                    supportfirsttechsol@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="pt-3 border-t border-slate-800 flex flex-wrap items-center gap-3">
+                <a
+                  href="mailto:supportfirsttechsol@gmail.com?subject=Terms%20of%20Service%20Inquiry%20%E2%80%94%20First%20Tech%20Sol"
+                  class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold text-slate-950 bg-[#00d2ff] hover:bg-cyan-300 transition-colors whitespace-nowrap shrink-0"
+                >
+                  <span>Email Legal &amp; Support Desk</span>
+                </a>
+                <button
+                  type="button"
+                  id="copy-terms-email-btn"
+                  class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold text-slate-200 bg-[#111827] hover:bg-slate-800 border border-cyan-500/30 transition-colors break-all"
+                >
+                  <span id="copy-terms-email-label">Copy supportfirsttechsol@gmail.com</span>
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- =====================================================================
+         FOOTER
+    ====================================================================== -->
+    <footer class="border-t border-slate-800/90 bg-[#060a14] py-10 mt-16 text-xs text-slate-400">
+      <div class="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+        <div>© 2026 First Tech Sol. All Rights Reserved. · Global Terms of Service &amp; EULA.</div>
+        <div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-4 gap-y-2">
+          <a href="index.html" class="text-[#00d2ff] hover:underline whitespace-nowrap">← Back to Main Website</a>
+          <span aria-hidden="true" class="hidden sm:inline">·</span>
+          <a href="First-Word-privacy-policy.html" class="hover:text-white transition-colors whitespace-nowrap">First Word Privacy Policy</a>
+          <span aria-hidden="true" class="hidden sm:inline">·</span>
+          <a href="mailto:supportfirsttechsol@gmail.com" class="hover:text-white transition-colors break-all">supportfirsttechsol@gmail.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =====================================================================
+         VANILLA JAVASCRIPT (Quick Filters, ScrollSpy TOC, Print, Copy Email)
+    ====================================================================== -->
+    <script>
+      (function () {
+        // 1. Print / Save PDF Button
+        var printBtn = document.getElementById('print-terms-btn');
+        if (printBtn) {
+          printBtn.addEventListener('click', function () {
+            window.print();
+          });
+        }
+
+        // 2. Copy Support Email Button
+        var copyBtn = document.getElementById('copy-terms-email-btn');
+        var copyLabel = document.getElementById('copy-terms-email-label');
+        var email = 'supportfirsttechsol@gmail.com';
+
+        if (copyBtn && copyLabel) {
+          copyBtn.addEventListener('click', function () {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(email).then(function () {
+                copyLabel.textContent = 'Copied to Clipboard!';
+                setTimeout(function () {
+                  copyLabel.textContent = 'Copy supportfirsttechsol@gmail.com';
+                }, 2500);
+              });
+            }
+          });
+        }
+
+        // 3. Interactive Quick Filter Clauses
+        var filterBtns = document.querySelectorAll('.terms-filter-btn');
+        var sections = document.querySelectorAll('.terms-section');
+        var countLabel = document.getElementById('terms-filter-count');
+
+        filterBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var topic = btn.getAttribute('data-topic') || 'all';
+
+            filterBtns.forEach(function (b) {
+              if (b === btn) {
+                b.className =
+                  'terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-[#00d2ff] text-slate-950 transition-colors whitespace-nowrap shrink-0';
+              } else {
+                b.className =
+                  'terms-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium bg-[#080e1b] text-slate-300 hover:text-white border border-slate-800 transition-colors whitespace-nowrap shrink-0';
+              }
+            });
+
+            var visibleCount = 0;
+            sections.forEach(function (sec) {
+              var secTopics = sec.getAttribute('data-topics') || '';
+              if (topic === 'all' || secTopics.indexOf(topic) !== -1) {
+                sec.classList.remove('hidden');
+                visibleCount++;
+              } else {
+                sec.classList.add('hidden');
+              }
+            });
+
+            if (countLabel) {
+              if (topic === 'all') {
+                countLabel.textContent = 'Showing all 14 international sections';
+              } else {
+                countLabel.textContent =
+                  'Showing ' + visibleCount + ' of 14 sections matching filter';
+              }
+            }
+          });
+        });
+
+        // 4. Table of Contents Click & ScrollSpy Active Section Highlight
+        var tocLinks = document.querySelectorAll('.toc-link');
+
+        tocLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            var allBtn = document.querySelector('.terms-filter-btn[data-topic="all"]');
+            if (allBtn) allBtn.click();
+          });
+        });
+
+        function updateActiveTocOnScroll() {
+          var scrollPosition = window.scrollY + 140;
+          var currentId = 'terms-1';
+
+          sections.forEach(function (sec) {
+            if (!sec.classList.contains('hidden') && sec.offsetTop <= scrollPosition) {
+              currentId = sec.id;
+            }
+          });
+
+          tocLinks.forEach(function (link) {
+            var target = link.getAttribute('data-toc-target');
+            if (target === currentId) {
+              link.classList.add('toc-link-active');
+            } else {
+              link.classList.remove('toc-link-active');
+            }
+          });
+        }
+
+        window.addEventListener('scroll', updateActiveTocOnScroll, { passive: true });
+        updateActiveTocOnScroll();
+      })();
+    </script>
+  </body>
+</html>

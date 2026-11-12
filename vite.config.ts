@@ -16,6 +16,7 @@ export default defineConfig(() => {
         input: {
           main: path.resolve(__dirname, 'index.html'),
           privacy: path.resolve(__dirname, 'First-Word-privacy-policy.html'),
+          terms: path.resolve(__dirname, 'terms-of-service.html'),
         },
       },
     },

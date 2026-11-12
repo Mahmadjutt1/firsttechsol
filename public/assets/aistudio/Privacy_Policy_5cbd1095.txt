@@ -1,0 +1,152 @@
+================================================================================
+PRIVACY POLICY — FIRST WORD (KIDS EDUCATIONAL APP)
+================================================================================
+Effective Date        : November 10, 2026
+Last Updated          : November 10, 2026
+Application Name      : First Word (Version 1.0)
+Developer & Publisher : First Tech Sol
+Contact Email         : supportfirsttechsol@gmail.com
+================================================================================
+
+1. INTRODUCTION
+
+Welcome to First Word ("the App"), an interactive early-childhood educational mobile application built, published, and maintained by First Tech Sol ("we," "us," or "our"). First Word is designed for toddlers, preschoolers, and young children (ages 2 to 7), as well as their parents, guardians, and educators.
+
+The App offers a safe, self-contained learning environment featuring:
+  - 10 Alphabet Categories (260 A–Z Illustrated Flashcards) with voice pronunciation and sequential phonics spelling
+  - Dotted Letter Tracing (A to Z) with animated directional arrow guidance
+  - Learn Shapes covering 17 geometric and everyday shapes with swipe navigation
+  - Learn Colors covering 25 colors paired with matching real-world objects
+  - 35-Object Real-Life Coloring Book with region-clipped brush painting and Auto Fill Color mode
+  - 4 Interactive Quiz Modes (Letter A–Z Quiz, Easy, Medium, and Hard modes)
+  - 4 Cognitive Brain Games (Missing Letters, 8-Card Memory Match, Pattern Train & Shadow Matcher, and Size Sorter)
+  - Parental Child-Lock Security (Screen Pinning) and a Mathematical Parental Gate
+
+First Tech Sol is committed to protecting children's privacy and complying with the U.S. Children's Online Privacy Protection Act (COPPA), the EU/UK General Data Protection Regulation (GDPR / GDPR-K), the Google Play Families Policy, and applicable international child data protection laws.
+
+--------------------------------------------------------------------------------
+2. SUMMARY OF OUR PRIVACY COMMITMENTS
+--------------------------------------------------------------------------------
+
+  * Built & Maintained by First Tech Sol: First Word (Version 1.0) is developed and published by First Tech Sol with child safety as our highest priority.
+  * No User Accounts or Logins: First Word does not require or offer user registration, accounts, or profiles.
+  * No Personal Data Collected from Children: First Tech Sol does not ask for, collect, store, or share your child's name, date of birth, home address, email address, phone number, photos, videos, voice recordings, contacts, or precise location.
+  * 100% Offline Educational Content & Voice Narration: All flashcards, games, coloring pages, letter tracing activities, and spoken voice pronunciations operate directly on your device using your device's built-in text-to-speech engine.
+  * Child-Safe, Non-Personalized Advertising Only: Any banner advertisements shown in the App are strictly configured as child-directed and rated "G" (General Audiences), with personalized behavioral tracking and advertising identifiers disabled.
+  * Built-In Parental Controls: Parents are protected by a mathematical Parental Gate and an optional PIN/Pattern Child Lock.
+
+--------------------------------------------------------------------------------
+3. INFORMATION WE DO NOT COLLECT
+--------------------------------------------------------------------------------
+
+First Word is designed so that children can learn safely without sharing personal information. Specifically, First Tech Sol does NOT collect, access, or transmit:
+  - Names, usernames, email addresses, mailing addresses, or telephone numbers;
+  - Dates of birth, gender, or biometric information;
+  - Photographs, videos, camera feeds, or microphone audio recordings;
+  - Precise or coarse GPS location data;
+  - Contacts, calendars, call logs, text messages, or files stored on your device;
+  - The Android Advertising ID (AD_ID) or behavioral profiling identifiers; or
+  - Financial or payment information.
+
+--------------------------------------------------------------------------------
+4. INFORMATION STORED LOCALLY ON YOUR DEVICE
+--------------------------------------------------------------------------------
+
+To provide a smooth experience and support the optional Parental Child Lock feature, the App stores a small amount of non-personal setting data locally on your device:
+
+  1. Parental Child Lock Settings:
+     If a parent activates the optional Parental Child Lock (Screen Pinning), the App saves the lock status (locked or unlocked) and the parent's chosen 4-digit PIN or 3x3 pattern locally on the device. This ensures the child lock remains active even if the App is closed or the device is restarted.
+     - This information stays strictly on your device and is never sent to First Tech Sol or any third party.
+     - If your Android device has system-level Google Drive Auto Backup turned on, Android may include app settings in your personal device backup.
+
+  2. Temporary Session Progress:
+     Current quiz scores, brain game stars, letter tracing progress, coloring book artwork, and the sound mute/unmute setting are held temporarily in memory while the App is open and reset when the App is closed.
+
+--------------------------------------------------------------------------------
+5. CHILD-SAFE ADVERTISING (GOOGLE ADMOB)
+--------------------------------------------------------------------------------
+
+First Word displays a small banner advertisement at the bottom of the screen powered by Google AdMob (Google Mobile Ads SDK), a Google Play Families self-certified advertising provider.
+
+To protect children's privacy and comply with COPPA, GDPR-K, and Google Play Families Policies, First Tech Sol has configured all ad requests with the following strict protections:
+  - Child-Directed Treatment Enabled: Every ad request is tagged for child-directed treatment, which disables interest-based advertising, behavioral profiling, and remarketing.
+  - "G" Content Rating Only: Ads are restricted to the "G" (General Audiences / family-safe) content rating.
+  - Advertising ID Removed: The Android Advertising ID permission and Android Privacy Sandbox tracking permissions are completely removed from the App.
+  - Ad Personalization Disabled: Personalized ad signals and analytics advertising features are turned off.
+
+Technical Information Processed by Google for Contextual Ads:
+When your device is connected to the internet and loads a child-directed contextual banner ad, Google's advertising SDK automatically receives standard technical network and device information necessary to deliver the contextual ad, limit how often the same ad is shown, and prevent fraud or invalid traffic. This technical data includes:
+  - Your device's IP address (used to establish the network connection and determine general country/region for contextual ad delivery);
+  - Basic device and app information (such as device model, operating system version, screen size, language setting, app package name, and app version 1.0); and
+  - Standard ad delivery and diagnostic signals (such as whether a banner ad loaded or was displayed).
+
+For more information on how Google handles data in child-directed applications, please visit:
+  - Google Privacy Policy: https://policies.google.com/privacy
+  - Google AdMob Child-Directed Setting: https://support.google.com/admob/answer/6223431
+
+When your device is offline, the App displays a built-in, non-interactive family-safe illustration banner that does not connect to the internet.
+
+--------------------------------------------------------------------------------
+6. DEVICE PERMISSIONS
+--------------------------------------------------------------------------------
+
+First Word requests zero sensitive or runtime permissions (no Camera, Microphone, Location, Contacts, or Storage permissions).
+
+The App uses only standard install-time network permissions:
+  - Internet & Network State: Used solely by the Google Mobile Ads SDK to check connectivity and load G-rated, child-directed contextual banner ads when online. All educational activities and voice features work completely offline.
+
+--------------------------------------------------------------------------------
+7. PARENTAL CONTROLS & CHILD SAFETY FEATURES
+--------------------------------------------------------------------------------
+
+First Tech Sol includes dedicated safety features for parents and guardians inside First Word:
+
+  1. Mathematical Parental Gate ("Grown-Ups Only"):
+     Accessing the parent information area requires solving a randomized multiplication and addition problem that young children cannot easily guess. Every incorrect attempt generates a new math problem.
+
+  2. Parental Child Lock (Screen Pinning):
+     Parents can lock the App on the screen using a 4-digit PIN or a 3x3 pattern so young children cannot accidentally exit the App. While locked, pressing the Back button will not interrupt the child's activity with a PIN popup; instead, the top padlock icon blinks gently, and the unlock keypad appears only when a parent taps directly on the padlock icon.
+
+  3. Offline Forgotten PIN Recovery:
+     Because First Tech Sol does not collect parent email addresses or passwords, parents who forget their PIN or pattern can tap "Forgot PIN?" or "App Restart Fallback" on the lock screen and solve an advanced adult arithmetic challenge to unlock the App and set a new PIN completely offline.
+
+--------------------------------------------------------------------------------
+8. PARENTS' RIGHTS, DATA RETENTION & DATA DELETION
+--------------------------------------------------------------------------------
+
+  * Support Emails:
+    If a parent or guardian contacts First Tech Sol directly by email at supportfirsttechsol@gmail.com, we will use the parent's email address and message solely to respond to the inquiry. We do not use support emails for marketing or share them with third parties, and we delete support correspondence once the inquiry is resolved unless retention is required by law.
+
+  * Deleting Local App Data on Your Device:
+    You can clear all locally stored Parental Lock settings at any time by:
+    1. Unlocking and turning off the Parental Lock inside the App;
+    2. Opening your Android device's Settings > Apps > First Word > Storage & cache and tapping "Clear storage" / "Clear data"; or
+    3. Uninstalling the App from your device.
+
+  * Exercising Parental Rights:
+    Parents and legal guardians have the right to review, request deletion of, or ask questions about any information provided to us in support communications. To exercise these rights, please contact First Tech Sol at supportfirsttechsol@gmail.com.
+
+--------------------------------------------------------------------------------
+9. DATA SECURITY
+--------------------------------------------------------------------------------
+
+First Tech Sol takes reasonable technical measures to protect the App and its users:
+  - All educational interactions and parental lock credentials remain inside the App's private local storage on your device and are never transmitted to any developer server.
+  - All network communication by the Google Mobile Ads SDK for contextual banner delivery occurs over encrypted HTTPS connections.
+
+--------------------------------------------------------------------------------
+10. CHANGES TO THIS PRIVACY POLICY
+--------------------------------------------------------------------------------
+
+First Tech Sol may update this Privacy Policy from time to time to reflect improvements to the App or changes in legal or Google Play Store requirements. Any updates will be posted with a revised "Last Updated" date. We encourage parents and guardians to review this Privacy Policy periodically.
+
+--------------------------------------------------------------------------------
+11. CONTACT US
+--------------------------------------------------------------------------------
+
+If you have any questions, comments, or concerns about this Privacy Policy or the privacy practices of First Word, please contact us at:
+
+  Developer / Publisher : First Tech Sol
+  Application Name      : First Word (Version 1.0)
+  Support Email         : supportfirsttechsol@gmail.com
+================================================================================
